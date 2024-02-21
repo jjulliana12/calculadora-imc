@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax//font-awesome/6.5.1/css/all.min.css">
+
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <main id="container">
+   <section id="img">
+    <img src="images/imagem.png" >
+   </section>
+
+   <section id="calculator">
+    <form id="form">
+        <h1 id="title">
+            Calculadora - IMC
+        </h1>
+
+        <div class="imput-box">
+            <label for="weigh">
+                Peso em Kg
+            </label>
+         <div class="input-field">
+            <i class="fa-solid fa-weight-hanging"></i>
+            <input type="number" id="weight" required>
+            <span>
+                Kg
+            </span>
+              
+            <div class="imput-box">
+                <label for="height">
+                   Altura em metros    
+                            </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler"></i>
+                <input type="number" id="height" required>
+                <span>
+
+                </span>
+                
+         </div>
+
+         </div>
+
+<button id="calculate">
+    Calcular
+
+    </button>
+ </form>
+
+ <div id="infos">
+    <div id="result">
+        <div id="bmi">
+            <span id="value"></span>
+            <span>Seu IMC</span>
+        </div>
+         <div id="description">
+            <span></span>
+         </div>
+    </div>
+<div id="more-info">
+    <a href="https://www.tjdft.jus.br/informacoes/programas-projetos-e-acoes/pro-vida/dicas-de-saude/pilulas-de-saude/o-que-o-indice-de-massa-corporal-imc-diz-sobre-sua-saude">
+        Mais informações sobre o IMC         
+    </a>
+
+</div>
+ </div>
+
+   </section>
+    </main>
+
+</body>
+</html> 
